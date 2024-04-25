@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+  background-color: #f3e0e8 !important;
+}
+.contact{
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 30%;
+  border-radius: 10px;
+  border: 2px solid limegreen;
+  background-color: #f2f2f2;
+  padding: 20px;
+  animation: fadeIn 1s ease forwards;
+}
+.title{
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  animation: fadeIn 1s ease forwards;
+}
+hr{
+  margin-bottom: 20px;
+  animation: fadeIn 3s ease forwards;
+}
+.form-input{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid limegreen;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  animation: fadeIn 2s ease forwards;
+}
+textarea{
+  height: 100px;
+  animation: fadeIn 1s ease forwards;
+}
+.send{
+  color: white;
+  background-color: #04AA6D;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: bolder;
+}
+.send :hover{
+  background-color:#000000;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px); 
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
